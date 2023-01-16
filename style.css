@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-image: url('https://live.staticflickr.com/1864/43641915644_404287f034_z.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title {
+    font-weight: 800;
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    text-decoration-line: underline ;
+}
+.calc {
+    height: 600px;
+    width: 300px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 0.5rem;
+    background: #fda7f3;
+    overflow: hidden;
+    border:7px solid rgb(99, 12, 153);
+}
+
+form input {
+    height: 150px;
+    width: 100%;
+    border: #fda7f3;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    font-size: 2rem;
+    color: black;
+    background: rgba(255, 0, 255, 0.758);
+    text-align: right;
+    pointer-events: none;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+
+button {
+    height: 60px;
+    width: 60px;
+    border-radius: 0.5rem;
+    font-size: 2rem;
+    font-weight: 600;
+    cursor: pointer;
+    flex: 0 0 22%;
+    margin: 5px 0;
+    border: 1px solid #000;
+    
+}
+
+.btn-equal {
+    background-color:  rgba(88, 241, 33, 0.89);
+    border: rgba(88, 241, 33, 0.89);
+}
+
+.btn-black {
+    background-color: rgba(242, 20, 224, 0.753);
+    border: rgba(242, 20, 224, 0.753);
+}
+
+.btn-clear {
+    background-color: rgba(255, 0, 0, 0.884);
+    border:rgba(255, 0, 0, 0.884);
+}
+
+.btn-blue {
+    background-color: rgba(77, 231, 231, 0.86);
+    border: rgba(77, 231, 231, 0.86);
+}
